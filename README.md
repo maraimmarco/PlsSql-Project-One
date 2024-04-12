@@ -1,25 +1,25 @@
-# PlsSql-Project-One
+## PlsSql-Project-One
 # YearDifference Function
 The YearDifference function calculates the difference in years between two given dates based on the specified payment frequency.
 
 # Parameters:
 
-# startDate: Start date of the contract.
-# endDate: End date of the contract.
-# payment: Payment frequency, which can be 'QUARTER', 'ANNUAL', 'HALF_ANNUAL', or any other value.
+ startDate: Start date of the contract.
+ endDate: End date of the contract.
+ payment: Payment frequency, which can be 'QUARTER', 'ANNUAL', 'HALF_ANNUAL', or any other value.
 ## Returns:
 
-# diff_between: The number of years between the start and end dates, based on the specified payment frequency.
-# FirstDate Function
+ diff_between: The number of years between the start and end dates, based on the specified payment frequency.
+ FirstDate Function
 The FirstDate function computes the date of the first installment based on the given start date and payment frequency.
 
 # Parameters:
 
 startDate: Start date of the contract.
-# payment: Payment frequency, which can be 'QUARTER', 'HALF_ANNUAL', 'MONTHLY', or any other value.
-Returns:
+ payment: Payment frequency, which can be 'QUARTER', 'HALF_ANNUAL', 'MONTHLY', or any other value.
 
-# MonthDate: The date of the first installment based on the given start date and payment frequency.
+# Returns:
+ MonthDate: The date of the first installment based on the given start date and payment frequency.
 InsertData Procedure
 The InsertData procedure inserts installment payment details into the HR.INSTALLMENTS_PAID table.
 
@@ -27,7 +27,8 @@ The InsertData procedure inserts installment payment details into the HR.INSTALL
 p_contract_id: Contract ID.
 p_INSTALLMENT_DATE: Date of the installment.
 p_INSTALLMENT_AMOUNT: Amount of the installment.
-Main Block
+
+# Main Block
 The main block of PL/SQL code iterates over contracts, calculates installment amounts, and inserts installment payment details into the HR.INSTALLMENTS_PAID table.
 
 # Variables:
